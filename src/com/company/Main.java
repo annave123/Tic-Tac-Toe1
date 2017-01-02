@@ -18,7 +18,7 @@ public class Main {
         board[2][0]='-';
         board[2][1]='-';
         board[2][2]='-';
- 
+
         System.out.println("Easy mode or Hard mode?");
         String howHard = picking.next().toLowerCase();
         if(howHard.equals("easy") || howHard.equals("hard")){
